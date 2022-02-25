@@ -1,0 +1,90 @@
+body {
+  padding: 0;
+  margin: 30px;
+  box-sizing: border-box;
+  height: 100vh;
+  background: lightblue;
+  font-family: "Lucida Sans", Verdana, sans-serif;
+}
+
+body > section {
+  border: 5px solid green;
+}
+
+header > h1 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav li {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+span {
+  border-left: 3px solid green;
+  padding-left: 10px;
+}
+span a {
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+article {
+  margin: 50px;
+}
+
+article h1 {
+  color: white;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+article img {
+  float: right;
+}
+
+article p {
+  color: white;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+footer li a {
+  text-decoration: none;
+  margin: 5px;
+  color: green;
+  font-size: 16px;
+}
+
+.twitch-link-1 {
+  border-right: 2px solid black;
+}
+
+.twitter-link-2 {
+  border-right: 2px solid black;
+}
